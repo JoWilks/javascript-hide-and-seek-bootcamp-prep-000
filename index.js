@@ -11,8 +11,12 @@ function nestedTarget() {
 function deepestChild() {
     //search for most deeply nested child from div#grand-node
     var list = document.getElementById('grand-node').querySelectorAll('div');
-    return list
+        for (let i = 0; i<list.length; i++) {
+      
+      
+    }
 }
+
 
 function increaseRankBy(n) {
   var allList = document.querySelectorAll('.ranked-list')
