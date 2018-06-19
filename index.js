@@ -8,6 +8,11 @@ function nestedTarget() {
   return target[0];
 }
 
+
+function deepestChild() {
+  
+}
+
 function increaseRankBy(n) {
   var allList = document.querySelectorAll('.ranked-list')
   for (let i=0; i<allList.length; i++) {
@@ -16,6 +21,3 @@ function increaseRankBy(n) {
 }
 
 
-function deepestChild() {
-  
-}
