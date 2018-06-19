@@ -9,8 +9,8 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  
-  //search for 
+    //search for most deeply nested child from div#grand-node
+    var target = document.getElementById('nested').querySelectorAll('.target');
 }
 
 function increaseRankBy(n) {
